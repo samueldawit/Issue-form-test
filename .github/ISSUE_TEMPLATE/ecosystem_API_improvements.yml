@@ -1,20 +1,20 @@
 name: How can we improve our extensibility?
 description: How can we improve our extensibility?
 title: "[recommendation]: "
-labels: ["feature-requst", "integration"]
+labels: ["feature-request", "integration"]
 projects: ["issue-form-test", "issue-form-test"]
 assignees:
   - Christa_Brehm
 body:
-- type: input
-  id: description
-  attributes:
-    label: Bug
-    description: "what would you like to recommend?"
-    placeholder: "I wish your API could do xyz"
-  validations:
-    required: false 
-body:
+  - type: input
+    id: description
+    attributes:
+      label: Bug
+      description: "What would you like to recommend?"
+      placeholder: "I wish your API could do xyz"
+    validations:
+      required: false
+
   - type: input
     id: contact
     attributes:
@@ -23,9 +23,8 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  body:
+
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this recommendation!
- 
