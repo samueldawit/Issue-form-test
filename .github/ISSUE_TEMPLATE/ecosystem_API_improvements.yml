@@ -14,6 +14,7 @@ body:
     placeholder: "I wish your API could do xyz"
   validations:
     required: false 
+body:
   - type: input
     id: contact
     attributes:
@@ -22,7 +23,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-      body:
+  body:
   - type: markdown
     attributes:
       value: |
